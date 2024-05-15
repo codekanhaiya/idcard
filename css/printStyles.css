@@ -1,0 +1,45 @@
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  width: 100%;
+  background: url(../img/background.gif)center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  font-family: "Audiowide", sans-serif;
+  display: grid;
+  text-align: center;
+  align-items: center;
+  margin-top: 10rem;
+  font-weight: bold;
+}
+
+#btn {
+  padding:5px 20px 5px 20px;
+  display: block;
+  font-size: 1.1rem;
+  background-color: rgba(0, 0, 255);
+  color: rgba(0, 0, 0, 0.726);
+  margin: 1em auto;
+  border-style: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-family: "Oswald";
+}
+a:hover{
+  text-decoration:underline;
+}
+a{
+  text-decoration: none;
+}

@@ -1,0 +1,59 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background: url(../img/background.gif)center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  font-size: 16px;
+  position: absolute;
+  font-family: sans-serif;
+}
+
+h1 {
+  margin: 50px;
+  text-align: center;
+  font-family: "Audiowide", sans-serif;
+}
+
+h4 {
+  font-family: "Sofia", sans-serif;
+}
+p{
+  text-align: right;
+  font-family: "Montserrat", sans-serif;
+}
+
+.contain {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding: 2em;
+  border-radius: 1rem;
+  box-shadow: none;
+  border: 2px solid black;
+  background-color: rgba(0, 0, 0,80%);
+}
+
+button {
+  padding: 8px 20px 8px 20px;
+  background-color: BLUE;
+  border: 1px solid white;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px white;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: none;
+}
